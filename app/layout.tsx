@@ -9,6 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Utopia Marketing Clone",
   description: "Marketing Needs Met In The City That Never Sleeps",
+
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
